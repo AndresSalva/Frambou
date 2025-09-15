@@ -1,24 +1,29 @@
+using HospitalDeVehiculosUltimaVersion.Factory;
+using HospitalDeVehiculosUltimaVersion.Factory.QrUltils;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using HospitalDeVehiculosUltimaVersion.Factory;
+using System.Buffers.Text;
+using System.Data.SqlTypes;
 
 namespace HospitalDeVehiculosUltimaVersion.Pages
 {
     public class TestDElModel : PageModel
     {
         private readonly HospitalDeVehiculosUltimaVersion.Model.HospitalDeVehiculosContext _context;
-        ServicioPagoDeTarjeta servicioPagoDeTarjeta;
+        ServicioPagoDeQr servicioPagoDeQr;
+        public string? qrBase64;
 
         public TestDElModel(HospitalDeVehiculosUltimaVersion.Model.HospitalDeVehiculosContext context)
         {
             _context = context;
-            servicioPagoDeTarjeta = new(_context);
+            servicioPagoDeQr = new(_context, new BasicQrCodeGenerator());
         }
         public void OnGet()
         {
-            servicioPagoDeTarjeta.ProcesarPago(
-                new SolicitudDePago(1, 10, "0")
-            );
+            SolicitudDePago solicitud = new(1, 10, "0");
+            byte[] qrData = servicioPagoDeQr.CreateQrCode( solicitud );
+            qrBase64 = Convert.ToBase64String(qrData);
+            servicioPagoDeQr.ProcesarPago(solicitud);
         }
     }
 }

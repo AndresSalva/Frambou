@@ -40,8 +40,7 @@ public partial class Pago
     /// </summary>
     [Column("estado")]
     public byte Estado { get; set; }
-    [Column("tipoDePago")]
-    public byte TipoDePago { get; set; }
+
 
     [Column("ultimaActualizacion", TypeName = "datetime")]
     public DateTime UltimaActualizacion { get; set; }
