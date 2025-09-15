@@ -1,0 +1,71 @@
+﻿# Build results
+bin/
+obj/
+out/
+
+# Entity Framework
+#migrations history files (optional if auto-generated)
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+
+# SQLite / Local DB files (if using EF Core with SQLite or LocalDB)
+*.mdf
+*.ldf
+*.ndf
+*.sqlite
+*.sqlite3
+*.db
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# Visual Studio
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Rider
+.idea/
+*.sln.iml
+
+# Logs
+*.log
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Publish outputs
+wwwroot/lib/
+wwwroot/dist/
+wwwroot/node_modules/
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Configuration
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Coverage / Testing
+TestResults/
+*.coverage
+*.coveragexml
