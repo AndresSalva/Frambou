@@ -10,7 +10,7 @@ namespace HospitalDeVehiculosUltimaVersion.Factory
         {
             return new ProcesadorDePagoDeTarjeta();
         }
-        public override string TipoDePagoFormato()
+        public override string GetFormatoDeTipoDePago()
         {
             return "TARJETA";
         }

@@ -7,7 +7,7 @@ namespace HospitalDeVehiculosUltimaVersion.Factory
         HospitalDeVehiculosContext DbContext { get; set; } = dbContext;
         public abstract TipoDePago Tipo { get; }
         public abstract IProcesadorDePago CrearProcesador();
-        public abstract string TipoDePagoFormato();
+        public abstract string GetFormatoDeTipoDePago();
         public  ResultadoDePago ProcesarPago( SolicitudDePago solicitudDePago)
         {
             IProcesadorDePago procesadorDePago = CrearProcesador();
@@ -23,7 +23,7 @@ namespace HospitalDeVehiculosUltimaVersion.Factory
                 Total = solicitudDePago.Total,
                 Estado = (byte)(resultado.Ok ? 1 : 0), 
                 UltimaActualizacion = DateTime.UtcNow,
-                // colocar TTPO 
+                TipoDePago = GetFormatoDeTipoDePago()
             };
 
             DbContext.Add<Pago>(pago);

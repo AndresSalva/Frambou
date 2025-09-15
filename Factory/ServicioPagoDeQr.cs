@@ -28,7 +28,7 @@ namespace HospitalDeVehiculosUltimaVersion.Factory
             return QrCodeGenerator.Generate(qrPayload);
         }
 
-        public override string TipoDePagoFormato()
+        public override string GetFormatoDeTipoDePago()
         {
             return "QR";
         }

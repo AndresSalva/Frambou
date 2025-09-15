@@ -40,7 +40,12 @@ public partial class Pago
     /// </summary>
     [Column("estado")]
     public byte Estado { get; set; }
-
+    /// <summary>
+    /// 0 = Qr,
+    /// 1 = Tarjeta,
+    /// </summary>
+    [Column("tipo")]
+    public string? TipoDePago { get; set; }
 
     [Column("ultimaActualizacion", TypeName = "datetime")]
     public DateTime UltimaActualizacion { get; set; }
