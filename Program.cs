@@ -1,4 +1,5 @@
 using HospitalDeVehiculosUltimaVersion.Model;
+using HospitalDeVehiculosUltimaVersion.Factory;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +12,9 @@ options.UseSqlServer(
     builder.Configuration.GetConnectionString("DefaultConnection")
     )
 );
+
+builder.Services.AddScoped<ServicioPagoDeQr>();
+builder.Services.AddScoped<ServicioPagoDeTarjeta>();
 
 var app = builder.Build();
 

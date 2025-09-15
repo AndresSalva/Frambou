@@ -6,9 +6,9 @@ namespace HospitalDeVehiculosUltimaVersion.Factory.QrUltils
     {
         public byte[] Generate(string payload)
         {
-            QRCodeGenerator qrCodeGenerator = new QRCodeGenerator();
+            QRCodeGenerator qrCodeGenerator = new();
             QRCodeData data = qrCodeGenerator.CreateQrCode(payload, QRCodeGenerator.ECCLevel.Q);
-            PngByteQRCode code = new PngByteQRCode(data);
+            PngByteQRCode code = new(data);
             return code.GetGraphic(40);
         }
     }

@@ -9,21 +9,20 @@ namespace HospitalDeVehiculosUltimaVersion.Pages
 {
     public class TestDElModel : PageModel
     {
-        private readonly HospitalDeVehiculosUltimaVersion.Model.HospitalDeVehiculosContext _context;
-        ServicioPagoDeQr servicioPagoDeQr;
+        private readonly ServicioPagoDeQr _qrService;
         public string? qrBase64;
 
-        public TestDElModel(HospitalDeVehiculosUltimaVersion.Model.HospitalDeVehiculosContext context)
+        public TestDElModel(ServicioPagoDeQr servicioPagoDeQr)
         {
-            _context = context;
-            servicioPagoDeQr = new(_context, new BasicQrCodeGenerator());
+            _qrService = servicioPagoDeQr;
+            servicioPagoDeQr.SetQrCodeGenerator(new BasicQrCodeGenerator());
         }
         public void OnGet()
         {
             SolicitudDePago solicitud = new(1, 10, "0");
-            byte[] qrData = servicioPagoDeQr.CreateQrCode( solicitud );
+            byte[] qrData = _qrService.CreateQrCode( solicitud );
             qrBase64 = Convert.ToBase64String(qrData);
-            servicioPagoDeQr.ProcesarPago(solicitud);
+            _qrService.ProcesarPago(solicitud);
         }
     }
 }
