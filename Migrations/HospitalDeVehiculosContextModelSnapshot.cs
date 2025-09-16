@@ -229,10 +229,6 @@ namespace HospitalDeVehiculosUltimaVersion.Migrations
                         .HasColumnType("decimal(8, 2)")
                         .HasColumnName("subtotal");
 
-                    b.Property<string>("TipoDePago")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("tipo");
-
                     b.Property<decimal>("Total")
                         .HasColumnType("decimal(8, 2)")
                         .HasColumnName("total");

@@ -1,5 +1,6 @@
 using HospitalDeVehiculosUltimaVersion.Factory;
-using HospitalDeVehiculosUltimaVersion.Factory.QrUltils;
+using HospitalDeVehiculosUltimaVersion.Factory.FactoryPago;
+using HospitalDeVehiculosUltimaVersion.Factory.FactoryPago.QrUltils;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Buffers.Text;

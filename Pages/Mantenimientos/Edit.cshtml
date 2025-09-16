@@ -1,0 +1,65 @@
+﻿@page
+@model HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Mantenimiento</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Mantenimiento.Id" />
+            <div class="form-group">
+                <label asp-for="Mantenimiento.IdVehiculo" class="control-label"></label>
+                <select asp-for="Mantenimiento.IdVehiculo" class="form-control" asp-items="ViewBag.IdVehiculo"></select>
+                <span asp-validation-for="Mantenimiento.IdVehiculo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mantenimiento.FechaProgramada" class="control-label"></label>
+                <input asp-for="Mantenimiento.FechaProgramada" class="form-control" />
+                <span asp-validation-for="Mantenimiento.FechaProgramada" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mantenimiento.FechaEjecucion" class="control-label"></label>
+                <input asp-for="Mantenimiento.FechaEjecucion" class="form-control" />
+                <span asp-validation-for="Mantenimiento.FechaEjecucion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mantenimiento.Estado" class="control-label"></label>
+                <input asp-for="Mantenimiento.Estado" class="form-control" />
+                <span asp-validation-for="Mantenimiento.Estado" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mantenimiento.FechaRegistro" class="control-label"></label>
+                <input asp-for="Mantenimiento.FechaRegistro" class="form-control" />
+                <span asp-validation-for="Mantenimiento.FechaRegistro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mantenimiento.UltimaActualizacion" class="control-label"></label>
+                <input asp-for="Mantenimiento.UltimaActualizacion" class="form-control" />
+                <span asp-validation-for="Mantenimiento.UltimaActualizacion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mantenimiento.IdAdminMantenimiento" class="control-label"></label>
+                <select asp-for="Mantenimiento.IdAdminMantenimiento" class="form-control" asp-items="ViewBag.IdAdminMantenimiento"></select>
+                <span asp-validation-for="Mantenimiento.IdAdminMantenimiento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

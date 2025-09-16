@@ -1,0 +1,79 @@
+﻿@page
+@model HospitalDeVehiculosUltimaVersion.Pages.Vehiculos.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Vehiculo</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Vehiculo.Marca)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Vehiculo.Marca)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Vehiculo.Modelo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Vehiculo.Modelo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Vehiculo.Placa)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Vehiculo.Placa)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Vehiculo.Kilometraje)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Vehiculo.Kilometraje)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Vehiculo.CapacidadMotor)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Vehiculo.CapacidadMotor)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Vehiculo.Combustible)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Vehiculo.Combustible)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Vehiculo.Transmision)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Vehiculo.Transmision)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Vehiculo.FechaRegistro)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Vehiculo.FechaRegistro)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Vehiculo.UltimaActualizacion)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Vehiculo.UltimaActualizacion)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Vehiculo.IdClienteNavigation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Vehiculo.IdClienteNavigation.Id)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Vehiculo.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

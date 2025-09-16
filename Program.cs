@@ -1,5 +1,7 @@
-using HospitalDeVehiculosUltimaVersion.Model;
 using HospitalDeVehiculosUltimaVersion.Factory;
+using HospitalDeVehiculosUltimaVersion.Factory.FactoryPago;
+using HospitalDeVehiculosUltimaVersion.Factory.FactoryRoll;
+using HospitalDeVehiculosUltimaVersion.Model;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,8 +15,23 @@ options.UseSqlServer(
     )
 );
 
+//jorge
 builder.Services.AddScoped<ServicioPagoDeQr>();
 builder.Services.AddScoped<ServicioPagoDeTarjeta>();
+
+// DI de tus implementaciones
+builder.Services.AddScoped<IRoleResolver, EfRoleResolver>();
+builder.Services.AddScoped<ICurrentUserSession, HttpSessionUser>();
+
+// Necesario para HttpSessionUser
+builder.Services.AddHttpContextAccessor();
+
+// ?? Session súper simple
+builder.Services.AddSession(o =>
+{
+    o.IdleTimeout = TimeSpan.FromMinutes(60);
+    o.Cookie.Name = "hv_sid";
+});
 
 var app = builder.Build();
 
@@ -32,6 +49,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+//Habilitar session ANTES de MapRazorPages
+app.UseSession();
 
 app.MapRazorPages();
 

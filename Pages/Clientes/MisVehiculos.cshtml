@@ -1,0 +1,46 @@
+﻿@page
+@model HospitalDeVehiculosUltimaVersion.Pages.Clientes.MisVehiculosModel
+@{
+    ViewData["Title"] = "Mis vehículos";
+}
+
+<h1 class="display-6">Mis vehículos</h1>
+
+@if (Model.Vehiculos is null || !Model.Vehiculos.Any())
+{
+    <div class="alert alert-info mt-3">
+        Aún no registraste vehículos.
+    </div>
+}
+else
+{
+    <div class="table-responsive mt-3">
+        <table class="table table-striped align-middle">
+            <thead>
+                <tr>
+                    <th>Placa</th>
+                    <th>Marca</th>
+                    <th>Modelo</th>
+                    <th>Kilometraje</th>
+                    <th>Motor (cc)</th>
+                    <th>Combustible</th>
+                    <th>Transmisión</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var v in Model.Vehiculos)
+                {
+                    <tr>
+                        <td>@v.Placa</td>
+                        <td>@v.Marca</td>
+                        <td>@v.Modelo</td>
+                        <td>@String.Format("{0:N0}", v.Kilometraje)</td>
+                        <td>@v.CapacidadMotor</td>
+                        <td>@HospitalDeVehiculosUltimaVersion.Pages.Clientes.MisVehiculosModel.CombustibleToText((byte)v.Combustible)</td>
+                        <td>@HospitalDeVehiculosUltimaVersion.Pages.Clientes.MisVehiculosModel.TransmisionToText((byte)v.Transmision)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}

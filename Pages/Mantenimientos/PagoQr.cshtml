@@ -1,0 +1,20 @@
+﻿@page
+@model HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos.PagoQrModel
+@{
+}
+
+
+<img src="data:image/png;base64,@Model.qrBase64" alt="Código QR para pago" style="width:50px;height:50px;" />
+<button type="submit" class="btn btn-primary">
+    <a asp-page="./PagoRealizado">Pago Realizado</a>
+</button>
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div class="form-group">
+                <input type="submit" value="OnPost" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

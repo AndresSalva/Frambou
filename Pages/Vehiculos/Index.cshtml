@@ -1,0 +1,90 @@
+﻿@page
+@model HospitalDeVehiculosUltimaVersion.Pages.Vehiculos.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehiculo[0].Marca)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehiculo[0].Modelo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehiculo[0].Placa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehiculo[0].Kilometraje)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehiculo[0].CapacidadMotor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehiculo[0].Combustible)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehiculo[0].Transmision)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehiculo[0].FechaRegistro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehiculo[0].UltimaActualizacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehiculo[0].IdClienteNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Vehiculo) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Modelo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Placa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kilometraje)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CapacidadMotor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Combustible)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Transmision)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaRegistro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UltimaActualizacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdClienteNavigation.Id)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

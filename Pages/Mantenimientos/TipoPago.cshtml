@@ -1,0 +1,19 @@
+﻿@page
+@model HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Tipo de Pago</h1>
+
+<div class="d-flex gap-2">
+    <a class="btn btn-primary"
+       asp-page="./PagoQr"
+       asp-route-id="@Model.Mantenimiento">QR</a>
+
+    <a class="btn btn-primary"
+       asp-page="./PagoTarjeta"
+       asp-route-id="@Model.Mantenimiento">Tarjeta</a>
+
+    <a asp-page="./Index" class="btn btn-outline-secondary ms-2">Cancelar</a>
+</div>
