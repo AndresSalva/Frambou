@@ -24,6 +24,7 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Vehiculos
         {
             Vehiculo = await _context.Vehiculos
                 .Include(v => v.IdClienteNavigation).ToListAsync();
+            ViewData["User"] = HttpContext.Session.GetString("UserName");
         }
     }
 }

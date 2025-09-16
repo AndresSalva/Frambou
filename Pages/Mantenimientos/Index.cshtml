@@ -65,7 +65,9 @@
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
                 <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a> |
-                <a asp-page="./TipoPago" asp-route-id="@item.Id">Procesar Pago</a>
+                    <a class="btn btn-sm btn-primary"
+                       asp-page="/Mantenimientos/TipoPago"
+                       asp-route-id="@item.Id">Procesar Pago</a>
             </td>
         </tr>
 }

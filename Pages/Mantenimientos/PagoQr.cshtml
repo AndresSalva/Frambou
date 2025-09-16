@@ -1,20 +1,19 @@
-﻿@page
+﻿@page "{id:int}"
 @model HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos.PagoQrModel
-@{
+
+<h2>Pago QR — Mantenimiento @Model.Mantenimiento.Id</h2>
+
+<p>Total a pagar: <strong>@Model.Total.ToString("0.00") Bs</strong></p>
+
+@if (!string.IsNullOrEmpty(Model.QrBase64))
+{
+    <img alt="QR de pago" style="max-width: 300px"
+         src="data:image/png;base64,@Model.QrBase64" />
 }
 
-
-<img src="data:image/png;base64,@Model.qrBase64" alt="Código QR para pago" style="width:50px;height:50px;" />
-<button type="submit" class="btn btn-primary">
-    <a asp-page="./PagoRealizado">Pago Realizado</a>
-</button>
-
-<div class="row">
-    <div class="col-md-4">
-        <form method="post">
-            <div class="form-group">
-                <input type="submit" value="OnPost" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
+<form method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" name="id" value="@Model.Mantenimiento.Id" />
+    <a asp-page="./PagoRealizado" class="btn btn-outline-secondary mt-3">Confirmar Pago</a>
+    <a asp-page="./TipoPago" asp-route-id="@Model.Mantenimiento.Id" class="btn btn-outline-secondary mt-3">Volver</a>
+</form>

@@ -9,6 +9,7 @@ namespace HospitalDeVehiculosUltimaVersion.Model;
 [Table("Pago")]
 public partial class Pago
 {
+    #region Properties
     [Key]
     [Column("id")]
     public int Id { get; set; }
@@ -47,5 +48,6 @@ public partial class Pago
 
     [ForeignKey("IdCliente")]
     [InverseProperty("Pagos")]
-    public virtual Cliente IdClienteNavigation { get; set; } = null!;
+    public virtual Cliente IdClienteNavigation { get; set; } = null!; 
+    #endregion
 }

@@ -9,6 +9,7 @@ namespace HospitalDeVehiculosUltimaVersion.Model;
 [Table("Servicio")]
 public partial class Servicio
 {
+    #region Properties
     [Key]
     [Column("id")]
     public int Id { get; set; }
@@ -46,5 +47,6 @@ public partial class Servicio
 
     [ForeignKey("IdMantenimiento")]
     [InverseProperty("Servicios")]
-    public virtual Mantenimiento IdMantenimientoNavigation { get; set; } = null!;
+    public virtual Mantenimiento IdMantenimientoNavigation { get; set; } = null!; 
+    #endregion
 }

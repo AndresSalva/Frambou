@@ -9,6 +9,7 @@ namespace HospitalDeVehiculosUltimaVersion.Model;
 [Table("Empleado")]
 public partial class Empleado
 {
+    #region Properties
     [Key]
     [Column("id")]
     public int Id { get; set; }
@@ -34,5 +35,6 @@ public partial class Empleado
 
     [ForeignKey("Id")]
     [InverseProperty("Empleado")]
-    public virtual Usuario IdNavigation { get; set; } = null!;
+    public virtual Usuario IdNavigation { get; set; } = null!; 
+    #endregion
 }

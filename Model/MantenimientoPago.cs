@@ -10,6 +10,7 @@ namespace HospitalDeVehiculosUltimaVersion.Model;
 [Table("MantenimientoPago")]
 public partial class MantenimientoPago
 {
+    #region Properties
     [Column("idMantenimiento")]
     public int? IdMantenimiento { get; set; }
 
@@ -20,5 +21,6 @@ public partial class MantenimientoPago
     public virtual Mantenimiento? IdMantenimientoNavigation { get; set; }
 
     [ForeignKey("IdPago")]
-    public virtual Pago? IdPagoNavigation { get; set; }
+    public virtual Pago? IdPagoNavigation { get; set; } 
+    #endregion
 }

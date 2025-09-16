@@ -1,44 +1,79 @@
-using HospitalDeVehiculosUltimaVersion.Factory;
-using HospitalDeVehiculosUltimaVersion.Factory.FactoryRoll;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+using HospitalDeVehiculosUltimaVersion.Factory.FactoryPago;
+using HospitalDeVehiculosUltimaVersion.Factory.FactoryPago.QrUltils;
 using HospitalDeVehiculosUltimaVersion.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using HospitalDeVehiculosUltimaVersion.Factory.FactoryPago;
-using HospitalDeVehiculosUltimaVersion.Factory.FactoryPago.QrUltils;
-using Microsoft.Identity.Client;
-
+using Microsoft.EntityFrameworkCore;
 
 namespace HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos
 {
     public class PagoQrModel : PageModel
     {
         private readonly HospitalDeVehiculosContext _context;
-        private readonly ICurrentUserSession _session;
-        private readonly ServicioPagoDeQr servicioPagoDeQr;
-        private SolicitudDePago solicitudDePago;
-        public string qrBase64 = string.Empty;
+        private readonly ServicioPagoDeQr _servicioPagoDeQr;
 
-        [BindProperty]
-        public Mantenimiento Mantenimiento { get; set; } = default!;
-
-        public void OnGet()
+        public PagoQrModel(HospitalDeVehiculosContext context, ServicioPagoDeQr servicioPagoDeQr)
         {
-            decimal total = Mantenimiento.Servicios.Sum(s => s.Precio);
-            solicitudDePago = new SolicitudDePago(Mantenimiento.IdVehiculoNavigation.IdCliente, total, "Bs");
-            byte[] qrBytes = this.servicioPagoDeQr.CreateQrCode(solicitudDePago);
-            qrBase64 = Convert.ToBase64String(qrBytes);
+            _context = context;
+            _servicioPagoDeQr = servicioPagoDeQr;
+            _servicioPagoDeQr.SetQrCodeGenerator(new BasicQrCodeGenerator());
         }
 
-        public PagoQrModel(ServicioPagoDeQr servicioPagoDeQr)
+        public Mantenimiento Mantenimiento { get; private set; } = default!;
+        public decimal Total { get; private set; }
+        public string QrBase64 { get; private set; } = string.Empty;
+
+        private SolicitudDePago _solicitudDePago = default!;
+
+        public async Task<IActionResult> OnGetAsync(int id)
         {
-            this.servicioPagoDeQr = servicioPagoDeQr;
-            this.servicioPagoDeQr.SetQrCodeGenerator(new BasicQrCodeGenerator());
+            Mantenimiento = await _context.Mantenimientos
+                .Include(m => m.Servicios)                  
+                .Include(m => m.IdVehiculoNavigation)       
+                .FirstOrDefaultAsync(m => m.Id == id);
+
+            if (Mantenimiento is null) return NotFound();
+
+            Total = Mantenimiento.Servicios?.Sum(s => s.Precio) ?? 0m;
+
+            if (Mantenimiento.IdVehiculoNavigation is null)
+                return BadRequest("El mantenimiento no está vinculado a un vehículo válido.");
+
+            var idCliente = Mantenimiento.IdVehiculoNavigation.IdCliente;
+
+            _solicitudDePago = new SolicitudDePago(idCliente, Total, "Bs");
+
+            byte[] qrBytes = _servicioPagoDeQr.CreateQrCode(_solicitudDePago);
+            QrBase64 = Convert.ToBase64String(qrBytes);
+
+            TempData["pago_total"] = Total.ToString();
+            TempData["pago_moneda"] = "Bs";
+            TempData["pago_cliente"] = idCliente.ToString();
+
+            return Page();
         }
 
-        public void OnPost()
+        public async Task<IActionResult> OnPostAsync(int id)
         {
-            this.servicioPagoDeQr.ProcesarPago(solicitudDePago);
-        }
+            var mantenimiento = await _context.Mantenimientos
+                .Include(m => m.Servicios)
+                .Include(m => m.IdVehiculoNavigation)
+                .FirstOrDefaultAsync(m => m.Id == id);
 
+            if (mantenimiento is null) return NotFound();
+
+            var total = mantenimiento.Servicios?.Sum(s => s.Precio) ?? 0m;
+            var idCliente = mantenimiento.IdVehiculoNavigation?.IdCliente
+                            ?? throw new InvalidOperationException("Vehículo/Cliente no disponible.");
+
+            var solicitud = new SolicitudDePago(idCliente, total, "Bs");
+
+            _servicioPagoDeQr.ProcesarPago(solicitud);
+
+            return RedirectToPage("./Detalle", new { id }); 
+        }
     }
 }

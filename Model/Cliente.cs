@@ -9,6 +9,7 @@ namespace HospitalDeVehiculosUltimaVersion.Model;
 [Table("Cliente")]
 public partial class Cliente
 {
+    #region Properties
     [Key]
     [Column("id")]
     public int Id { get; set; }
@@ -21,5 +22,6 @@ public partial class Cliente
     public virtual ICollection<Pago> Pagos { get; set; } = new List<Pago>();
 
     [InverseProperty("IdClienteNavigation")]
-    public virtual ICollection<Vehiculo> Vehiculos { get; set; } = new List<Vehiculo>();
+    public virtual ICollection<Vehiculo> Vehiculos { get; set; } = new List<Vehiculo>(); 
+    #endregion
 }

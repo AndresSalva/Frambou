@@ -1,77 +1,77 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
+using HospitalDeVehiculosUltimaVersion.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using HospitalDeVehiculosUltimaVersion.Model;
 
 namespace HospitalDeVehiculosUltimaVersion.Pages.Vehiculos
 {
     public class EditModel : PageModel
     {
-        private readonly HospitalDeVehiculosUltimaVersion.Model.HospitalDeVehiculosContext _context;
-
-        public EditModel(HospitalDeVehiculosUltimaVersion.Model.HospitalDeVehiculosContext context)
-        {
-            _context = context;
-        }
+        private readonly HospitalDeVehiculosContext _context;
+        public EditModel(HospitalDeVehiculosContext context) => _context = context;
 
         [BindProperty]
-        public Vehiculo Vehiculo { get; set; } = default!;
+        public Vehiculo Vehiculo { get; set; } = new();
+        public SelectList ClientesOptions { get; private set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id is null) return NotFound();
 
-            var vehiculo =  await _context.Vehiculos.FirstOrDefaultAsync(m => m.Id == id);
-            if (vehiculo == null)
-            {
-                return NotFound();
-            }
+            var vehiculo = await _context.Vehiculos
+                .AsNoTracking()
+                .FirstOrDefaultAsync(v => v.Id == id.Value);
+
+            if (vehiculo is null) return NotFound();
+
             Vehiculo = vehiculo;
-           ViewData["IdCliente"] = new SelectList(_context.Clientes, "Id", "Id");
+
+            await LoadClientesAsync(Vehiculo.IdCliente);
             return Page();
         }
 
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
+            ModelState.Remove("Vehiculo.IdClienteNavigation");
+            ModelState.Remove("Vehiculo.FechaRegistro");
+            ModelState.Remove("Vehiculo.UltimaActualizacion");
+
             if (!ModelState.IsValid)
             {
+                await LoadClientesAsync(Vehiculo?.IdCliente);
                 return Page();
             }
 
-            _context.Attach(Vehiculo).State = EntityState.Modified;
+            var db = await _context.Vehiculos.FirstOrDefaultAsync(v => v.Id == Vehiculo.Id);
+            if (db is null) return NotFound();
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!VehiculoExists(Vehiculo.Id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            db.Marca = Vehiculo.Marca;
+            db.Modelo = Vehiculo.Modelo;
+            db.Placa = Vehiculo.Placa;
+            db.Kilometraje = Vehiculo.Kilometraje;
+            db.CapacidadMotor = Vehiculo.CapacidadMotor;
+            db.Combustible = Vehiculo.Combustible;
+            db.Transmision = Vehiculo.Transmision;
+            db.IdCliente = Vehiculo.IdCliente;
 
+            db.UltimaActualizacion = System.DateTime.Now;
+
+            await _context.SaveChangesAsync();
             return RedirectToPage("./Index");
         }
 
-        private bool VehiculoExists(int id)
+        private async Task LoadClientesAsync(int? selectedId = null)
         {
-            return _context.Vehiculos.Any(e => e.Id == id);
+            var items = await _context.Clientes
+                .AsNoTracking()
+                .OrderBy(c => c.Id)
+                .Select(c => new { c.Id, Texto = "Cliente #" + c.Id })
+                .ToListAsync();
+
+            ClientesOptions = new SelectList(items, "Id", "Texto", selectedId);
         }
     }
 }

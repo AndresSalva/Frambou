@@ -1,7 +1,7 @@
-﻿@page
-@model HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos.IndexModel
+﻿@page "{id:int}"
+@model HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos.TipoPagoModel
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Tipo de Pago";
 }
 
 <h1>Tipo de Pago</h1>
@@ -9,11 +9,11 @@
 <div class="d-flex gap-2">
     <a class="btn btn-primary"
        asp-page="./PagoQr"
-       asp-route-id="@Model.Mantenimiento">QR</a>
+       asp-route-id="@Model.Id">QR</a>
 
     <a class="btn btn-primary"
        asp-page="./PagoTarjeta"
-       asp-route-id="@Model.Mantenimiento">Tarjeta</a>
+       asp-route-id="@Model.Id">Tarjeta</a>
 
     <a asp-page="./Index" class="btn btn-outline-secondary ms-2">Cancelar</a>
 </div>

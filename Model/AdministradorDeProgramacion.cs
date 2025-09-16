@@ -9,6 +9,7 @@ namespace HospitalDeVehiculosUltimaVersion.Model;
 [Table("AdministradorDeProgramacion")]
 public partial class AdministradorDeProgramacion
 {
+    #region Properties
     [Key]
     [Column("id")]
     public int Id { get; set; }
@@ -18,5 +19,6 @@ public partial class AdministradorDeProgramacion
     public virtual Empleado IdNavigation { get; set; } = null!;
 
     [InverseProperty("IdAdminMantenimientoNavigation")]
-    public virtual ICollection<Mantenimiento> Mantenimientos { get; set; } = new List<Mantenimiento>();
+    public virtual ICollection<Mantenimiento> Mantenimientos { get; set; } = new List<Mantenimiento>(); 
+    #endregion
 }

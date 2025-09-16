@@ -24,25 +24,21 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Clientes
 
         public async Task<IActionResult> OnGetAsync()
         {
-            // 1) Obtener el clienteId desde tu wrapper; si no, desde Session
             int? clienteId = null;
 
-            // Si tu ICurrentUserSession tiene Get():
             try
             {
                 var (userId, role) = _session.Get();
-                if (role == UserRole.Cliente) clienteId = userId; // PK Cliente == id Usuario
+                if (role == UserRole.Cliente) clienteId = userId;
             }
-            catch { /* si no implementaste Get(), seguimos abajo */ }
+            catch {  }
 
-            // Fallback directo a Session si hiciste Set("ClienteId", user.Id)
             if (!clienteId.HasValue)
                 clienteId = HttpContext.Session.GetInt32("ClienteId");
 
             if (!clienteId.HasValue)
                 return LocalRedirect(Url.Content("~/login"));
 
-            // 2) Traer todos los vehículos del cliente
             Vehiculos = await _context.Vehiculos
                 .AsNoTracking()
                 .Where(v => v.IdCliente == clienteId.Value)
@@ -52,7 +48,6 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Clientes
             return Page();
         }
 
-        // Helpers para mostrar enums (según extended properties de tu schema)
         public static string CombustibleToText(byte c) => c switch
         {
             0 => "Gasolina",

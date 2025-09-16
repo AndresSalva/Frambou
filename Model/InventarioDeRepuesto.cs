@@ -8,6 +8,7 @@ namespace HospitalDeVehiculosUltimaVersion.Model;
 
 public partial class InventarioDeRepuesto
 {
+    #region Properties
     [Key]
     [Column("id")]
     public int Id { get; set; }
@@ -26,5 +27,6 @@ public partial class InventarioDeRepuesto
     public virtual AdministradorDeRepuesto IdAdminRepuestosNavigation { get; set; } = null!;
 
     [InverseProperty("IdInventarioNavigation")]
-    public virtual ICollection<Repuesto> Repuestos { get; set; } = new List<Repuesto>();
+    public virtual ICollection<Repuesto> Repuestos { get; set; } = new List<Repuesto>(); 
+    #endregion
 }

@@ -53,13 +53,10 @@ namespace HospitalDeVehiculosUltimaVersion.Pages
                 return Page();
             }
 
-            // 2) Resolver rol a partir del id (Usuario -> Empleado/AdminProg | Cliente)
             var role = await _roles.ResolveAsync(user.Id);
 
-            // 3) Guardar sesión de forma tipada (sin magic strings)
             _session.Set(user.Id, role);
 
-            // 4) Redirigir según rol (rutas de ejemplo; ajusta a tus páginas reales)
             var target = role switch
             {
                 UserRole.AdminProg => Url.Content("~/Mantenimientos/Index"),
@@ -68,36 +65,6 @@ namespace HospitalDeVehiculosUltimaVersion.Pages
             };
 
             return LocalRedirect(target);
-
-            //codigo caca sin SOLID:
-            //var esAdminProg = await _context.Set<AdministradorDeProgramacion>()
-            //                        .AsNoTracking()
-            //                        .AnyAsync(a => a.Id == user.Id);
-
-            //var esCliente = await _context.Set<Cliente>()
-            //                                .AsNoTracking()
-            //                                .AnyAsync(c => c.Id == user.Id);
-
-            //// 3) Guardar lo mínimo indispensable en Session
-            //HttpContext.Session.SetInt32("UsuarioId", user.Id);
-
-            //if (esAdminProg)
-            //{
-            //    HttpContext.Session.SetString("Rol", "AdminProg");
-            //    HttpContext.Session.SetInt32("AdminProgId", user.Id);
-            //    return LocalRedirect(Url.Content("~/Mantenimientos/Index"));
-            //}
-            //else if (esCliente)
-            //{
-            //    HttpContext.Session.SetString("Rol", "Cliente");
-            //    HttpContext.Session.SetInt32("ClienteId", user.Id);
-            //    return LocalRedirect(Url.Content("~/Clientes/MisVehiculos"));
-            //}
-            //else
-            //{
-            //    HttpContext.Session.SetString("Rol", "Desconocido");
-            //    return LocalRedirect(Url.Content("~/"));
-            //}
         }
     }
 }

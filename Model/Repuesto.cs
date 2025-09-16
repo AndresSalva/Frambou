@@ -8,6 +8,7 @@ namespace HospitalDeVehiculosUltimaVersion.Model;
 
 public partial class Repuesto
 {
+    #region Properties
     [Key]
     [Column("id")]
     public int Id { get; set; }
@@ -45,5 +46,6 @@ public partial class Repuesto
 
     [ForeignKey("IdInventario")]
     [InverseProperty("Repuestos")]
-    public virtual InventarioDeRepuesto IdInventarioNavigation { get; set; } = null!;
+    public virtual InventarioDeRepuesto IdInventarioNavigation { get; set; } = null!; 
+    #endregion
 }

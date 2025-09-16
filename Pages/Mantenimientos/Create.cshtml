@@ -9,10 +9,8 @@
 <form method="post">
     <div asp-validation-summary="All" class="text-danger"></div>
 
-    <!-- Selección de Vehículo -->
     @if (Model.idVehiculo.HasValue)
     {
-        <!-- Si vino por query, ocultamos el selector y fijamos el valor -->
         <input type="hidden" asp-for="Mantenimiento.IdVehiculo" value="@Model.idVehiculo.Value" />
         <div class="mb-3">
             <label class="form-label">Vehículo seleccionado</label>
@@ -31,22 +29,11 @@
             <span asp-validation-for="Mantenimiento.IdVehiculo" class="text-danger"></span>
         </div>
     }
-
-    <!-- Fecha programada -->
     <div class="mb-3">
         <label asp-for="Mantenimiento.FechaProgramada" class="form-label"></label>
         <input asp-for="Mantenimiento.FechaProgramada" class="form-control" type="datetime-local" />
         <span asp-validation-for="Mantenimiento.FechaProgramada" class="text-danger"></span>
     </div>
-
-    <!-- Si tu entidad tiene otros campos opcionales (p. ej., Notas/Descripción), los puedes agregar aquí -->
-    @* 
-    <div class="mb-3">
-        <label asp-for="Mantenimiento.Observaciones" class="form-label"></label>
-        <textarea asp-for="Mantenimiento.Observaciones" class="form-control" rows="3"></textarea>
-        <span asp-validation-for="Mantenimiento.Observaciones" class="text-danger"></span>
-    </div>
-    *@
 
     <button type="submit" class="btn btn-primary">Guardar</button>
     <a asp-page="./Index" class="btn btn-outline-secondary ms-2">Cancelar</a>

@@ -41,7 +41,6 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos
             }
             else
             {
-                // Sin id por query: cargar el dropdown
                 VehiculosOptions = new SelectList(
                     await _context.Vehiculos
                         .AsNoTracking()
@@ -55,7 +54,6 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos
                     "Id", "Text");
             }
 
-            // (Opcional) Sugerir una fecha inicial
             if (Mantenimiento.FechaProgramada == default)
                 Mantenimiento.FechaProgramada = DateTime.Now.AddDays(1);
 

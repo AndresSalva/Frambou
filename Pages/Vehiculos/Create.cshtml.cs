@@ -1,37 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
+using HospitalDeVehiculosUltimaVersion.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using HospitalDeVehiculosUltimaVersion.Model;
+using Microsoft.EntityFrameworkCore;
 
 namespace HospitalDeVehiculosUltimaVersion.Pages.Vehiculos
 {
     public class CreateModel : PageModel
     {
-        private readonly HospitalDeVehiculosUltimaVersion.Model.HospitalDeVehiculosContext _context;
+        private readonly HospitalDeVehiculosContext _context;
 
-        public CreateModel(HospitalDeVehiculosUltimaVersion.Model.HospitalDeVehiculosContext context)
+        public CreateModel(HospitalDeVehiculosContext context)
         {
             _context = context;
         }
 
-        public IActionResult OnGet()
+        [BindProperty]
+        public Vehiculo Vehiculo { get; set; } = new();
+
+        // Combo de clientes
+        public SelectList ClientesOptions { get; private set; } = default!;
+
+        public async Task<IActionResult> OnGetAsync()
         {
-        ViewData["IdCliente"] = new SelectList(_context.Clientes, "Id", "Id");
+            await LoadClientesAsync();
             return Page();
         }
 
-        [BindProperty]
-        public Vehiculo Vehiculo { get; set; } = default!;
-
-        // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
+            ModelState.Remove("Vehiculo.IdClienteNavigation");
+
             if (!ModelState.IsValid)
             {
+                await LoadClientesAsync();
                 return Page();
             }
 
@@ -39,6 +43,17 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Vehiculos
             await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");
+        }
+
+        private async Task LoadClientesAsync()
+        {
+            var items = await _context.Clientes
+                .AsNoTracking()
+                .OrderBy(c => c.Id)
+                .Select(c => new { c.Id, Texto = "Cliente #" + c.Id })
+                .ToListAsync();
+
+            ClientesOptions = new SelectList(items, "Id", "Texto");
         }
     }
 }
