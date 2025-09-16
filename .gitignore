@@ -3,6 +3,8 @@ bin/
 obj/
 out/
 
+.vs/
+
 # Entity Framework
 #migrations history files (optional if auto-generated)
 *.dbmdl

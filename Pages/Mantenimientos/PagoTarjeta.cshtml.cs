@@ -55,14 +55,14 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos
 
         public async Task<IActionResult> OnPostAsync()
         {
-            var m = await _context.Mantenimientos
+            Mantenimiento? mantenimiento = await _context.Mantenimientos
                 .Include(x => x.Servicios)
                 .FirstOrDefaultAsync(x => x.Id == IdMantenimientoPost);
 
-            if (m is null) return NotFound();
+            if (mantenimiento is null) return NotFound();
 
-            var total = m.Servicios?.Sum(s => s.Precio) ?? 0m;
-            Vehiculo? vehiculo = await _context.Vehiculos.FirstOrDefaultAsync(v => v.Id == m.IdVehiculo);
+            var total = mantenimiento.Servicios?.Sum(s => s.Precio) ?? 0m;
+            Vehiculo? vehiculo = await _context.Vehiculos.FirstOrDefaultAsync(v => v.Id == mantenimiento.IdVehiculo);
             if (vehiculo is null) return NotFound();
             SolicitudDePago solicitudDePago = new() { 
                 Divisa = "BS",
@@ -73,14 +73,23 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos
 
             solicitudDePago.IdCliente = vehiculo.IdCliente;
 
-            _servicioDeTarjeta.ProcesarPago(solicitudDePago);
+            ResultadoDePago resultadoDePago = _servicioDeTarjeta.ProcesarPago(solicitudDePago);
+            if(resultadoDePago.Ok != false)
+            {
+                mantenimiento.Estado = 3;
+                mantenimiento.FechaEjecucion = DateTime.Now;
+                _context.Mantenimientos.Update(mantenimiento);
+
+                await _context.SaveChangesAsync();
+            }
+
 
             // TODO: procesar pago con tarjeta aquí
             // - validar datos de tarjeta (si los agregas en el form)
             // - guardar registro de pago / estado
             // await _context.SaveChangesAsync();
 
-            return RedirectToPage("Mantenimientos/Create", new { IdMantenimientoPost });
+            return RedirectToPage("./Index");
         }
     }
 }

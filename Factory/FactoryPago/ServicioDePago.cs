@@ -1,4 +1,6 @@
 ﻿using HospitalDeVehiculosUltimaVersion.Model;
+using Microsoft.EntityFrameworkCore;
+using NuGet.Versioning;
 
 namespace HospitalDeVehiculosUltimaVersion.Factory.FactoryPago
 {
@@ -11,19 +13,21 @@ namespace HospitalDeVehiculosUltimaVersion.Factory.FactoryPago
         public  ResultadoDePago ProcesarPago( SolicitudDePago solicitudDePago)
         {
             IProcesadorDePago procesadorDePago = CrearProcesador();
+
             ResultadoDePago resultado = procesadorDePago.Procesar(solicitudDePago);
+
+            if(resultado.Ok == false) {  return resultado; }
 
             Pago pago = new()
             {
                 IdCliente = solicitudDePago.IdCliente,
                 FechaRegistro = DateTime.UtcNow,
                 Divisa = solicitudDePago.Divisa,
-                Subtotal = solicitudDePago.Total,
                 Descuento = 0m,
                 Total = solicitudDePago.Total,
                 Estado = (byte)(resultado.Ok ? 1 : 0), 
                 UltimaActualizacion = DateTime.UtcNow,
-                // colocar TTPO 
+                Subtotal =solicitudDePago.Total,
             };
 
             DbContext.Add(pago);

@@ -22,7 +22,7 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos
             _servicioPagoDeQr.SetQrCodeGenerator(new BasicQrCodeGenerator());
         }
 
-        public Mantenimiento Mantenimiento { get; private set; } = default!;
+        public Mantenimiento? Mantenimiento { get; private set; } = default!;
         public decimal Total { get; private set; }
         public string QrBase64 { get; private set; } = string.Empty;
 
@@ -73,9 +73,16 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos
 
             var solicitud = new SolicitudDePago(idCliente, total, "Bs");
 
-            _servicioPagoDeQr.ProcesarPago(solicitud);
+            ResultadoDePago resultadoDePago = _servicioPagoDeQr.ProcesarPago(solicitud);
+            if (resultadoDePago.Ok)
+            {
+                mantenimiento.Estado = 3;
+                mantenimiento.FechaEjecucion = DateTime.Now;
+                _context.Mantenimientos.Update(mantenimiento);
+                await _context.SaveChangesAsync();  
+            }
 
-            return RedirectToPage("./Detalle", new { IdMantenimientoPost }); 
+            return RedirectToPage("./Index"); 
         }
     }
 }

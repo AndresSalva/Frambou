@@ -1,165 +1,169 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\",
+  "WorkspaceRootPath": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\mantenimientos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\mantenimientos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\mantenimientos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\mantenimientos\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\mantenimientos\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\mantenimientos\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\mantenimientos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\mantenimientos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\mantenimientos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\mantenimientos\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\mantenimientos\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\mantenimientos\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\mantenimientos\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\mantenimientos\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\mantenimientos\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\mantenimientos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\mantenimientos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\mantenimientos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\mantenimientos\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\mantenimientos\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\mantenimientos\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\mantenimientos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\mantenimientos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\mantenimientos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\mantenimientos\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\mantenimientos\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\mantenimientos\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\mantenimientos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\mantenimientos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\mantenimientos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\model\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\model\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:model\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\model\\servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\model\\servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:model\\servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\model\\repuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\model\\repuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:model\\repuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\model\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\model\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:model\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\model\\mantenimientopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\model\\mantenimientopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:model\\mantenimientopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\model\\mantenimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\model\\mantenimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:model\\mantenimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\model\\inventarioderepuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\model\\inventarioderepuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:model\\inventarioderepuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\model\\hospitaldevehiculoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\model\\hospitaldevehiculoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:model\\hospitaldevehiculoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\model\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\model\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:model\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:model\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\model\\administradorderepuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\model\\administradorderepuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:model\\administradorderepuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\vehiculos\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\vehiculos\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\vehiculos\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\vehiculos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\vehiculos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\vehiculos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\usuarios\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\usuarios\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\usuarios\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\registrar\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\registrar\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\registrar\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\clientes\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\clientes\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\clientes\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\servicios\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\servicios\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\servicios\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\servicios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\servicios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\servicios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\servicios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\servicios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\servicios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\servicios\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\servicios\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\servicios\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\servicios\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\servicios\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\servicios\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\servicios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\servicios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\servicios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\servicios\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\servicios\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\servicios\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\servicios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\servicios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\servicios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\servicios\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\servicios\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\servicios\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|d:\\ucb\\gestion 2-2025 ucb\\arquitectura de software\\ec1\\frambou original\\frambou\\pages\\servicios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|c:\\users\\jb\\downloads\\frambou-main\\hospitaldevehiculosultimaversion\\hospitaldevehiculosultimaversion\\pages\\servicios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3A432C75-73E7-38D7-EC77-1E4BFBE3B6AB}|HospitalDeVehiculosUltimaVersion.csproj|solutionrelative:pages\\servicios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -170,379 +174,369 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Mantenimientos\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Mantenimientos\\Index.cshtml",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Mantenimientos\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Mantenimientos\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T15:06:38.794Z",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-16T16:03:38.929Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Delete.cshtml.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Mantenimientos\\Delete.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Mantenimientos\\Delete.cshtml.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Mantenimientos\\Delete.cshtml.cs",
-              "RelativeToolTip": "Pages\\Mantenimientos\\Delete.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T15:06:21.092Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Mantenimientos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Mantenimientos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Mantenimientos\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Mantenimientos\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T15:06:38.794Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Mantenimientos\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Mantenimientos\\Delete.cshtml",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Mantenimientos\\Delete.cshtml",
-              "RelativeToolTip": "Pages\\Mantenimientos\\Delete.cshtml",
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Mantenimientos\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Mantenimientos\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Mantenimientos\\Delete.cshtml.cs",
+              "RelativeToolTip": "Pages\\Mantenimientos\\Delete.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T15:06:20.989Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T15:06:21.092Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Details.cshtml.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Mantenimientos\\Details.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Mantenimientos\\Details.cshtml.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Mantenimientos\\Details.cshtml.cs",
-              "RelativeToolTip": "Pages\\Mantenimientos\\Details.cshtml.cs",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Mantenimientos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Mantenimientos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Mantenimientos\\Delete.cshtml",
+              "RelativeToolTip": "Pages\\Mantenimientos\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T15:06:20.88Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T15:06:20.989Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Mantenimientos\\Details.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Mantenimientos\\Details.cshtml",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Mantenimientos\\Details.cshtml",
-              "RelativeToolTip": "Pages\\Mantenimientos\\Details.cshtml",
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Mantenimientos\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Mantenimientos\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Mantenimientos\\Details.cshtml.cs",
+              "RelativeToolTip": "Pages\\Mantenimientos\\Details.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T15:06:20.782Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T15:06:20.88Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Edit.cshtml.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Mantenimientos\\Edit.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Mantenimientos\\Edit.cshtml.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Mantenimientos\\Edit.cshtml.cs",
-              "RelativeToolTip": "Pages\\Mantenimientos\\Edit.cshtml.cs",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Mantenimientos\\Details.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Mantenimientos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Mantenimientos\\Details.cshtml",
+              "RelativeToolTip": "Pages\\Mantenimientos\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T15:06:20.673Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T15:06:20.782Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Mantenimientos\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Mantenimientos\\Edit.cshtml",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Mantenimientos\\Edit.cshtml",
-              "RelativeToolTip": "Pages\\Mantenimientos\\Edit.cshtml",
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Mantenimientos\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Mantenimientos\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Mantenimientos\\Edit.cshtml.cs",
+              "RelativeToolTip": "Pages\\Mantenimientos\\Edit.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T15:06:20.565Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T15:06:20.673Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Mantenimientos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Mantenimientos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Mantenimientos\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\Mantenimientos\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T15:06:20.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Mantenimientos\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Mantenimientos\\Create.cshtml",
               "RelativeDocumentMoniker": "Pages\\Mantenimientos\\Create.cshtml",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Mantenimientos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Mantenimientos\\Create.cshtml",
               "RelativeToolTip": "Pages\\Mantenimientos\\Create.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-16T14:14:44.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Mantenimientos\\Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Mantenimientos\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Mantenimientos\\Create.cshtml.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Mantenimientos\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Mantenimientos\\Create.cshtml.cs",
               "RelativeToolTip": "Pages\\Mantenimientos\\Create.cshtml.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:14:47.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T14:14:47.716Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Mantenimientos\\Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Mantenimientos\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Mantenimientos\\Index.cshtml.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Mantenimientos\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Mantenimientos\\Index.cshtml.cs",
               "RelativeToolTip": "Pages\\Mantenimientos\\Index.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T15:06:21.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T15:03:46.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "MantenimientoPago.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\MantenimientoPago.cs",
-              "RelativeDocumentMoniker": "Model\\MantenimientoPago.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\MantenimientoPago.cs",
-              "RelativeToolTip": "Model\\MantenimientoPago.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:52:22.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Pago.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\Pago.cs",
-              "RelativeDocumentMoniker": "Model\\Pago.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\Pago.cs",
-              "RelativeToolTip": "Model\\Pago.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA7wDIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:52:29.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Mantenimiento.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\Mantenimiento.cs",
-              "RelativeDocumentMoniker": "Model\\Mantenimiento.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\Mantenimiento.cs",
-              "RelativeToolTip": "Model\\Mantenimiento.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAkwDEAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:52:12.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T15:06:21.367Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAFUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T14:15:28.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Repuesto.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\Repuesto.cs",
-              "RelativeDocumentMoniker": "Model\\Repuesto.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\Repuesto.cs",
-              "RelativeToolTip": "Model\\Repuesto.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDAAAAAoAAAAAAAAAA==",
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:52:39.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T15:03:46.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\Usuario.cs",
-              "RelativeDocumentMoniker": "Model\\Usuario.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\Usuario.cs",
-              "RelativeToolTip": "Model\\Usuario.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "MantenimientoPago.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\MantenimientoPago.cs",
+              "RelativeDocumentMoniker": "Model\\MantenimientoPago.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\MantenimientoPago.cs",
+              "RelativeToolTip": "Model\\MantenimientoPago.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:52:52.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T14:52:22.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Vehiculo.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\Vehiculo.cs",
-              "RelativeDocumentMoniker": "Model\\Vehiculo.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\Vehiculo.cs",
-              "RelativeToolTip": "Model\\Vehiculo.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAwwEEAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "Pago.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\Pago.cs",
+              "RelativeDocumentMoniker": "Model\\Pago.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\Pago.cs",
+              "RelativeToolTip": "Model\\Pago.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA7wDIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:53:00.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Login.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Login.cshtml",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Login.cshtml",
-              "RelativeToolTip": "Pages\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T14:53:17.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T14:52:29.445Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "InventarioDeRepuesto.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\InventarioDeRepuesto.cs",
-              "RelativeDocumentMoniker": "Model\\InventarioDeRepuesto.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\InventarioDeRepuesto.cs",
-              "RelativeToolTip": "Model\\InventarioDeRepuesto.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Title": "Mantenimiento.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\Mantenimiento.cs",
+              "RelativeDocumentMoniker": "Model\\Mantenimiento.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\Mantenimiento.cs",
+              "RelativeToolTip": "Model\\Mantenimiento.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwDEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:52:03.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T14:52:12.58Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "HospitalDeVehiculosContext.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\HospitalDeVehiculosContext.cs",
-              "RelativeDocumentMoniker": "Model\\HospitalDeVehiculosContext.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\HospitalDeVehiculosContext.cs",
-              "RelativeToolTip": "Model\\HospitalDeVehiculosContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T14:15:28.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Repuesto.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\Repuesto.cs",
+              "RelativeDocumentMoniker": "Model\\Repuesto.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\Repuesto.cs",
+              "RelativeToolTip": "Model\\Repuesto.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:52:02.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T14:52:39.48Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Servicio.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\Servicio.cs",
-              "RelativeDocumentMoniker": "Model\\Servicio.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\Servicio.cs",
-              "RelativeToolTip": "Model\\Servicio.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAA0AAAAAAAAAA==",
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\Usuario.cs",
+              "RelativeDocumentMoniker": "Model\\Usuario.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\Usuario.cs",
+              "RelativeToolTip": "Model\\Usuario.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:35:16.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T14:52:52.44Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AdministradorDeRepuesto.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\AdministradorDeRepuesto.cs",
-              "RelativeDocumentMoniker": "Model\\AdministradorDeRepuesto.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\AdministradorDeRepuesto.cs",
-              "RelativeToolTip": "Model\\AdministradorDeRepuesto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "Vehiculo.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\Vehiculo.cs",
+              "RelativeDocumentMoniker": "Model\\Vehiculo.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\Vehiculo.cs",
+              "RelativeToolTip": "Model\\Vehiculo.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAwwEEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:51:37.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T14:53:00.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Login.cshtml",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Login.cshtml",
+              "RelativeToolTip": "Pages\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T14:53:17.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "InventarioDeRepuesto.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\InventarioDeRepuesto.cs",
+              "RelativeDocumentMoniker": "Model\\InventarioDeRepuesto.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\InventarioDeRepuesto.cs",
+              "RelativeToolTip": "Model\\InventarioDeRepuesto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T14:52:03.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HospitalDeVehiculosContext.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\HospitalDeVehiculosContext.cs",
+              "RelativeDocumentMoniker": "Model\\HospitalDeVehiculosContext.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\HospitalDeVehiculosContext.cs",
+              "RelativeToolTip": "Model\\HospitalDeVehiculosContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T14:52:02.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Servicio.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\Servicio.cs",
+              "RelativeDocumentMoniker": "Model\\Servicio.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\Servicio.cs",
+              "RelativeToolTip": "Model\\Servicio.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T14:35:16.349Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Vehiculos\\Create.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Vehiculos\\Create.cshtml.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Vehiculos\\Create.cshtml.cs",
-              "RelativeToolTip": "Pages\\Vehiculos\\Create.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AdministradorDeRepuesto.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\AdministradorDeRepuesto.cs",
+              "RelativeDocumentMoniker": "Model\\AdministradorDeRepuesto.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\AdministradorDeRepuesto.cs",
+              "RelativeToolTip": "Model\\AdministradorDeRepuesto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:51:04.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T14:51:37.914Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Vehiculos\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Vehiculos\\Index.cshtml",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Vehiculos\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Vehiculos\\Index.cshtml",
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Vehiculos\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Vehiculos\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Vehiculos\\Create.cshtml.cs",
+              "RelativeToolTip": "Pages\\Vehiculos\\Create.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T14:50:52.908Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T14:51:04.296Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Usuarios\\Create.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Usuarios\\Create.cshtml.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Usuarios\\Create.cshtml.cs",
-              "RelativeToolTip": "Pages\\Usuarios\\Create.cshtml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:50:23.302Z",
-              "EditorCaption": ""
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Vehiculos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Vehiculos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Vehiculos\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Vehiculos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T14:50:52.908Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Usuarios\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Usuarios\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Usuarios\\Create.cshtml.cs",
+              "RelativeToolTip": "Pages\\Usuarios\\Create.cshtml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T14:50:23.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "Registro.cshtml",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Registrar\\Registro.cshtml",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Registrar\\Registro.cshtml",
               "RelativeDocumentMoniker": "Pages\\Registrar\\Registro.cshtml",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Registrar\\Registro.cshtml",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Registrar\\Registro.cshtml",
               "RelativeToolTip": "Pages\\Registrar\\Registro.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T14:44:40.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T14:44:40.366Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Cliente.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\Cliente.cs",
               "RelativeDocumentMoniker": "Model\\Cliente.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\Cliente.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\Cliente.cs",
               "RelativeToolTip": "Model\\Cliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:35:34.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T14:35:34.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Servicios\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Servicios\\Delete.cshtml",
               "RelativeDocumentMoniker": "Pages\\Servicios\\Delete.cshtml",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Servicios\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Servicios\\Delete.cshtml",
               "RelativeToolTip": "Pages\\Servicios\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -550,24 +544,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Empleado.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\Empleado.cs",
               "RelativeDocumentMoniker": "Model\\Empleado.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Model\\Empleado.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Model\\Empleado.cs",
               "RelativeToolTip": "Model\\Empleado.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:35:38.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T14:35:38.965Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Details.cshtml.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Servicios\\Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Servicios\\Details.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Servicios\\Details.cshtml.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Servicios\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Servicios\\Details.cshtml.cs",
               "RelativeToolTip": "Pages\\Servicios\\Details.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -575,11 +568,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Servicios\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Servicios\\Details.cshtml",
               "RelativeDocumentMoniker": "Pages\\Servicios\\Details.cshtml",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Servicios\\Details.cshtml",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Servicios\\Details.cshtml",
               "RelativeToolTip": "Pages\\Servicios\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -587,11 +580,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Servicios\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Servicios\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Servicios\\Index.cshtml",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Servicios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Servicios\\Index.cshtml",
               "RelativeToolTip": "Pages\\Servicios\\Index.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAADwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -599,24 +592,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Clientes\\Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Clientes\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Clientes\\Create.cshtml.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Clientes\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Clientes\\Create.cshtml.cs",
               "RelativeToolTip": "Pages\\Clientes\\Create.cshtml.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:44:21.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T14:44:21.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Servicios\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Servicios\\Create.cshtml",
               "RelativeDocumentMoniker": "Pages\\Servicios\\Create.cshtml",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Servicios\\Create.cshtml",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Servicios\\Create.cshtml",
               "RelativeToolTip": "Pages\\Servicios\\Create.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -624,11 +616,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Servicios\\Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Servicios\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Servicios\\Create.cshtml.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Servicios\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Servicios\\Create.cshtml.cs",
               "RelativeToolTip": "Pages\\Servicios\\Create.cshtml.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwB8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -636,11 +628,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Delete.cshtml.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Servicios\\Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Servicios\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Servicios\\Delete.cshtml.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Servicios\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Servicios\\Delete.cshtml.cs",
               "RelativeToolTip": "Pages\\Servicios\\Delete.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -648,11 +640,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Servicios\\Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Servicios\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Servicios\\Index.cshtml.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Servicios\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Servicios\\Index.cshtml.cs",
               "RelativeToolTip": "Pages\\Servicios\\Index.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -660,11 +652,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Edit.cshtml.cs",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Servicios\\Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Servicios\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Servicios\\Edit.cshtml.cs",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Servicios\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Servicios\\Edit.cshtml.cs",
               "RelativeToolTip": "Pages\\Servicios\\Edit.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -672,11 +664,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Servicios\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Servicios\\Edit.cshtml",
               "RelativeDocumentMoniker": "Pages\\Servicios\\Edit.cshtml",
-              "ToolTip": "D:\\UCB\\GESTION 2-2025 UCB\\ARQUITECTURA DE SOFTWARE\\EC1\\Frambou Original\\Frambou\\Pages\\Servicios\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\jb\\Downloads\\Frambou-main\\HospitalDeVehiculosUltimaVersion\\HospitalDeVehiculosUltimaVersion\\Pages\\Servicios\\Edit.cshtml",
               "RelativeToolTip": "Pages\\Servicios\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",

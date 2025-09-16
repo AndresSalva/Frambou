@@ -47,10 +47,9 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Vehiculos
 
         private async Task LoadClientesAsync()
         {
-            var items = await _context.Clientes
+            var items = await _context.Clientes.Include(c => c.IdNavigation)
                 .AsNoTracking()
-                .OrderBy(c => c.Id)
-                .Select(c => new { c.Id, Texto = "Cliente #" + c.Id })
+                .Select(c => new { c.Id, Texto = $"{ c.IdNavigation.PrimerNombre } {c.IdNavigation.PrimerApellido}"})
                 .ToListAsync();
 
             ClientesOptions = new SelectList(items, "Id", "Texto");

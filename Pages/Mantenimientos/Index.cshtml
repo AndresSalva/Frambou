@@ -29,11 +29,9 @@
                 @Html.DisplayNameFor(model => model.Mantenimiento[0].UltimaActualizacion)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Mantenimiento[0].IdAdminMantenimientoNavigation)
+               Placa Vehiculo
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Mantenimiento[0].IdVehiculoNavigation)
-            </th>
+
             <th></th>
         </tr>
     </thead>
@@ -56,10 +54,7 @@
                 @Html.DisplayFor(modelItem => item.UltimaActualizacion)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdAdminMantenimientoNavigation.Id)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdVehiculoNavigation.Id)
+                @Html.DisplayFor(modelItem => item.IdVehiculoNavigation.Placa)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
