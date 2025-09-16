@@ -27,6 +27,8 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos
         public string QrBase64 { get; private set; } = string.Empty;
 
         private SolicitudDePago _solicitudDePago = default!;
+        [BindProperty]
+        public int IdMantenimientoPost { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int id)
         {
@@ -56,12 +58,12 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos
             return Page();
         }
 
-        public async Task<IActionResult> OnPostAsync(int id)
+        public async Task<IActionResult> OnPostAsync()
         {
             var mantenimiento = await _context.Mantenimientos
                 .Include(m => m.Servicios)
                 .Include(m => m.IdVehiculoNavigation)
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.Id == IdMantenimientoPost);
 
             if (mantenimiento is null) return NotFound();
 
@@ -73,7 +75,7 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos
 
             _servicioPagoDeQr.ProcesarPago(solicitud);
 
-            return RedirectToPage("./Detalle", new { id }); 
+            return RedirectToPage("./Detalle", new { IdMantenimientoPost }); 
         }
     }
 }

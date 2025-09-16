@@ -19,10 +19,10 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Servicios
         {
             _context = context;
         }
-
-        public IActionResult OnGet()
+        public int IdMantenimiento { get; set; }
+        public IActionResult OnGet(int id)
         {
-        ViewData["IdMantenimiento"] = new SelectList(_context.Mantenimientos, "Id", "Id");
+            IdMantenimiento = id;
             return Page();
         }
 

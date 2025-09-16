@@ -8,37 +8,37 @@
 <h1>Index</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create" asp-route-id="@Model.IdMantenimiento">Create New</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Servicio[0].Nombre)
+                @Html.DisplayNameFor(model => model.Servicios[0].Nombre)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Servicio[0].Descripcion)
+                @Html.DisplayNameFor(model => model.Servicios[0].Descripcion)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Servicio[0].Precio)
+                @Html.DisplayNameFor(model => model.Servicios[0].Precio)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Servicio[0].Estado)
+                @Html.DisplayNameFor(model => model.Servicios[0].Estado)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Servicio[0].FechaRegistro)
+                @Html.DisplayNameFor(model => model.Servicios[0].FechaRegistro)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Servicio[0].LastUpdate)
+                @Html.DisplayNameFor(model => model.Servicios[0].LastUpdate)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Servicio[0].IdMantenimientoNavigation)
+                @Html.DisplayNameFor(model => model.Servicios[0].IdMantenimientoNavigation)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.Servicio) {
+@foreach (var item in Model.Servicios) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Nombre)

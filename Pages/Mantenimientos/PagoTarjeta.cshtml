@@ -22,6 +22,8 @@
         <input type="password" class="form-control" id="CVV"
                asp-for="CVV" placeholder="123" required />
     </div>
+    <input type="hidden" class="form-control" id="CVV"
+           asp-for="IdMantenimientoPost" value="@Model.Mantenimiento.Id" />
 
     <button type="submit" class="btn btn-primary">Confirmar Pago</button>
 

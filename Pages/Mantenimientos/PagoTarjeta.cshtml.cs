@@ -27,6 +27,8 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos
         {
             get; set;
         }
+        [BindProperty]
+        public int IdMantenimientoPost { get; set; }
 
 
         public PagoTarjetaModel(HospitalDeVehiculosContext context, ServicioPagoDeTarjeta servicioDeTarjeta)
@@ -55,8 +57,7 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos
         {
             var m = await _context.Mantenimientos
                 .Include(x => x.Servicios)
-                .Include(x => x.IdVehiculoNavigation)
-                .FirstOrDefaultAsync(x => x.Id == Mantenimiento.Id);
+                .FirstOrDefaultAsync(x => x.Id == IdMantenimientoPost);
 
             if (m is null) return NotFound();
 
@@ -79,7 +80,7 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos
             // - guardar registro de pago / estado
             // await _context.SaveChangesAsync();
 
-            return RedirectToPage("./Detalle", new { Mantenimiento.Id });
+            return RedirectToPage("Mantenimientos/Create", new { IdMantenimientoPost });
         }
     }
 }
