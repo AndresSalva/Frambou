@@ -18,12 +18,14 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Servicios
             _context = context;
         }
 
-        public IList<Servicio> Servicio { get;set; } = default!;
+        public IList<Servicio> Servicios { get;set; } = default!;
+        public int IdMantenimiento { get; set; }
 
-        public async Task OnGetAsync()
+        public async Task OnGetAsync(int id)
         {
-            Servicio = await _context.Servicios
-                .Include(s => s.IdMantenimientoNavigation).ToListAsync();
+            IdMantenimiento = id;
+            Servicios = await _context.Servicios
+                .Where(s => s.IdMantenimiento == id).ToListAsync();
         }
     }
 }

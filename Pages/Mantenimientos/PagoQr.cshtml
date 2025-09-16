@@ -13,7 +13,6 @@
 
 <form method="post">
     @Html.AntiForgeryToken()
-    <input type="hidden" name="id" value="@Model.Mantenimiento.Id" />
-    <a asp-page="./PagoRealizado" class="btn btn-outline-secondary mt-3">Confirmar Pago</a>
-    <a asp-page="./TipoPago" asp-route-id="@Model.Mantenimiento.Id" class="btn btn-outline-secondary mt-3">Volver</a>
+    <input type="hidden" asp-for="IdMantenimientoPost" value="@Model.Mantenimiento.Id" />
+    <button type="submit" class="btn btn-primary">Confirmar Pago</button>
 </form>
