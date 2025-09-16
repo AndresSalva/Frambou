@@ -46,6 +46,6 @@ public partial class Repuesto
 
     [ForeignKey("IdInventario")]
     [InverseProperty("Repuestos")]
-    public virtual InventarioDeRepuesto IdInventarioNavigation { get; set; } = null!; 
+    public virtual InventarioDeRepuesto? IdInventarioNavigation { get; set; } = null!; 
     #endregion
 }

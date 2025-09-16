@@ -47,7 +47,7 @@ public partial class Mantenimiento
 
     [ForeignKey("IdVehiculo")]
     [InverseProperty("Mantenimientos")]
-    public virtual Vehiculo IdVehiculoNavigation { get; set; } = null!;
+    public virtual Vehiculo? IdVehiculoNavigation { get; set; } = null!;
 
     [InverseProperty("IdMantenimientoNavigation")]
     public virtual ICollection<Servicio> Servicios { get; set; } = new List<Servicio>(); 

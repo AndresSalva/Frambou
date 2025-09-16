@@ -35,6 +35,6 @@ public partial class Empleado
 
     [ForeignKey("Id")]
     [InverseProperty("Empleado")]
-    public virtual Usuario IdNavigation { get; set; } = null!; 
+    public virtual Usuario? IdNavigation { get; set; } = null!; 
     #endregion
 }

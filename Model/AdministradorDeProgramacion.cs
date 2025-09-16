@@ -16,7 +16,7 @@ public partial class AdministradorDeProgramacion
 
     [ForeignKey("Id")]
     [InverseProperty("AdministradorDeProgramacion")]
-    public virtual Empleado IdNavigation { get; set; } = null!;
+    public virtual Empleado? IdNavigation { get; set; } = null!;
 
     [InverseProperty("IdAdminMantenimientoNavigation")]
     public virtual ICollection<Mantenimiento> Mantenimientos { get; set; } = new List<Mantenimiento>(); 

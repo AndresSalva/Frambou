@@ -15,7 +15,7 @@ public partial class AdministradorDeRepuesto
 
     [ForeignKey("Id")]
     [InverseProperty("AdministradorDeRepuesto")]
-    public virtual Empleado IdNavigation { get; set; } = null!;
+    public virtual Empleado? IdNavigation { get; set; } = null!;
 
     [InverseProperty("IdAdminRepuestosNavigation")]
     public virtual ICollection<InventarioDeRepuesto> InventarioDeRepuestos { get; set; } = new List<InventarioDeRepuesto>(); 

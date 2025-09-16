@@ -79,7 +79,7 @@
                         @if (isLogged)
                         {
                             <li class="nav-item">
-                                <form method="post" asp-page="/Logout" class="d-inline">
+                                <form method="post" asp-page="/Index" asp-page-handler="Logout" class="d-inline">
                                     @Html.AntiForgeryToken()
                                     <button type="submit" class="btn btn-link nav-link text-dark">Log Out</button>
                                 </form>

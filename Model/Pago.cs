@@ -48,6 +48,6 @@ public partial class Pago
 
     [ForeignKey("IdCliente")]
     [InverseProperty("Pagos")]
-    public virtual Cliente IdClienteNavigation { get; set; } = null!; 
+    public virtual Cliente? IdClienteNavigation { get; set; } = null!; 
     #endregion
 }
