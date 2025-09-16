@@ -47,6 +47,6 @@ public partial class Servicio
 
     [ForeignKey("IdMantenimiento")]
     [InverseProperty("Servicios")]
-    public virtual Mantenimiento IdMantenimientoNavigation { get; set; } = null!; 
+    public virtual Mantenimiento? IdMantenimientoNavigation { get; set; } = null!; 
     #endregion
 }
