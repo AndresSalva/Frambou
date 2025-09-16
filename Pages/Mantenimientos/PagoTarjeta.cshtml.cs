@@ -1,5 +1,6 @@
 using System.Linq;
 using System.Threading.Tasks;
+using HospitalDeVehiculosUltimaVersion.Factory.FactoryPago;
 using HospitalDeVehiculosUltimaVersion.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -10,10 +11,28 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos
     public class PagoTarjetaModel : PageModel
     {
         private readonly HospitalDeVehiculosContext _context;
+        private readonly ServicioPagoDeTarjeta _servicioDeTarjeta;
+        [BindProperty]
+        public string CVV
+        {
+            get; set;
+        }
+        [BindProperty]
+        public string VENCIMIENTO
+        {
+            get; set;
+        }
+        [BindProperty]
+        public string NUMERO_TARJETA
+        {
+            get; set;
+        }
 
-        public PagoTarjetaModel(HospitalDeVehiculosContext context)
+
+        public PagoTarjetaModel(HospitalDeVehiculosContext context, ServicioPagoDeTarjeta servicioDeTarjeta)
         {
             _context = context;
+            _servicioDeTarjeta = servicioDeTarjeta;
         }
 
         public Mantenimiento Mantenimiento { get; private set; } = default!;
@@ -32,23 +51,35 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos
             return Page();
         }
 
-        public async Task<IActionResult> OnPostAsync(int id)
+        public async Task<IActionResult> OnPostAsync()
         {
             var m = await _context.Mantenimientos
                 .Include(x => x.Servicios)
                 .Include(x => x.IdVehiculoNavigation)
-                .FirstOrDefaultAsync(x => x.Id == id);
+                .FirstOrDefaultAsync(x => x.Id == Mantenimiento.Id);
 
             if (m is null) return NotFound();
 
             var total = m.Servicios?.Sum(s => s.Precio) ?? 0m;
+            Vehiculo? vehiculo = await _context.Vehiculos.FirstOrDefaultAsync(v => v.Id == m.IdVehiculo);
+            if (vehiculo is null) return NotFound();
+            SolicitudDePago solicitudDePago = new() { 
+                Divisa = "BS",
+                IdCliente = vehiculo.IdCliente,
+                Total = total,
+                MetaDatos = { { MetaDato.CVV, CVV },{ MetaDato.NUMERO_TARJETA, NUMERO_TARJETA }, {  MetaDato.FECHA_VENCIMIENTO, VENCIMIENTO }   }
+            };
+
+            solicitudDePago.IdCliente = vehiculo.IdCliente;
+
+            _servicioDeTarjeta.ProcesarPago(solicitudDePago);
 
             // TODO: procesar pago con tarjeta aquí
             // - validar datos de tarjeta (si los agregas en el form)
             // - guardar registro de pago / estado
             // await _context.SaveChangesAsync();
 
-            return RedirectToPage("./Detalle", new { id });
+            return RedirectToPage("./Detalle", new { Mantenimiento.Id });
         }
     }
 }

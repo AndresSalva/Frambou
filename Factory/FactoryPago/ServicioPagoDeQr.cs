@@ -6,7 +6,7 @@ namespace HospitalDeVehiculosUltimaVersion.Factory.FactoryPago
 {
     public class ServicioPagoDeQr(HospitalDeVehiculosContext dbContext) : ServicioDePago(dbContext)
     {
-        public override TipoDePago Tipo => throw new NotImplementedException();
+        public override TipoDePago Tipo => TipoDePago.QR;
 
         public IQrCodeGenerator QrCodeGenerator { get; set; }
 

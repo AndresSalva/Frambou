@@ -1,15 +1,28 @@
-﻿@page "{id:int}"
+﻿@page 
 @model HospitalDeVehiculosUltimaVersion.Pages.Mantenimientos.PagoTarjetaModel
 
 <h2>Pago con Tarjeta — Mantenimiento @Model.Mantenimiento.Id</h2>
 <p>Total: <strong>@Model.Total.ToString("0.00") Bs</strong></p>
 
 <form method="post">
-    @Html.AntiForgeryToken()
-    <input type="hidden" name="id" value="@Model.Mantenimiento.Id" />
-
-    <div class="d-flex gap-2 mt-3">
-        <a asp-page="./PagoRealizado" class="btn btn-outline-secondary mt-3">Confirmar Pago</a>
-        <a asp-page="./TipoPago" asp-route-id="@Model.Mantenimiento.Id" class="btn btn-outline-secondary">Volver</a>
+    <div class="mb-3">  
+        <label for="Number" class="form-label">Card Number</label>
+        <input type="text" class="form-control" id="Number"
+               asp-for="NUMERO_TARJETA" placeholder="1234 5678 9012 3456" required />
     </div>
+
+    <div class="mb-3">
+        <label for="Expiration" class="form-label">Expiration Date</label>
+        <input type="text" class="form-control" id="Expiration"
+               asp-for="VENCIMIENTO" placeholder="MM/YY" required />
+    </div>
+
+    <div class="mb-3">
+        <label for="CVV" class="form-label">CVV</label>
+        <input type="password" class="form-control" id="CVV"
+               asp-for="CVV" placeholder="123" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Confirmar Pago</button>
+
 </form>
