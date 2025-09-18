@@ -39,7 +39,7 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Servicios
             _context.Servicios.Add(Servicio);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("/Servicios/Index", new { id = Servicio.IdMantenimiento});
         }
     }
 }

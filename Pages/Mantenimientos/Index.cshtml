@@ -5,7 +5,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Mantenimientos</h1>
 
 <p>
     <a asp-page="Create">Create New</a>
@@ -44,9 +44,18 @@
             <td>
                 @Html.DisplayFor(modelItem => item.FechaEjecucion)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Estado)
-            </td>
+                <td>
+                    @{
+                        var estado = item.Estado switch
+                        {
+                            0 => "Cancelado",
+                            1 => "Programado",
+                            2 => "En progreso",
+                            3 => "Completado",
+                            _ => "Desconocido"
+                        };
+                    }
+                    @estado
             <td>
                 @Html.DisplayFor(modelItem => item.FechaRegistro)
             </td>

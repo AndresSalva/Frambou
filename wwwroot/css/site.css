@@ -20,3 +20,29 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* wwwroot/css/site.css */
+.navbar-brand i {
+    font-size: 1.3rem;
+    color: #ff7f50;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #f8f9fa;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ff7f50;
+}
+
+.hero {
+    background: url("/images/auto.jpg") center/cover no-repeat;
+    height: 40vh;
+}
+
+@media (min-width: 200px) {
+    .hero {
+        min-height: 37.5vh;
+    }
+    /* mayor altura en pantallas grandes */
+}

@@ -18,7 +18,13 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
+            <div class="hero d-flex align-items-center justify-content-center text-center">
+                <div>
+                    <h1 class="display-4 text-white">Mantenimiento de confianza para tu vehículo</h1>
+                    <p class="lead text-white-50">Agenda y gestiona todos tus servicios en un solo lugar</p>
+                </div>
+            </div>
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-page="/Index">HospitalDeVehiculosUltimaVersion</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
@@ -29,16 +35,16 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                            <a class="nav-link text-white" asp-area="" asp-page="/Index">Home</a>
                         </li>
 
                         @if (!isLogged)
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Login">Log In</a>
+                                <a class="nav-link text-white" asp-area="" asp-page="/Login">Log In</a>
                             </li>
                             <li class="nav-item">
-								<a class="nav-link text-dark" asp-area="" asp-page="/Registrar/Registro">Registrarse</a>
+                                <a class="nav-link text-white" asp-area="" asp-page="/Registrar/Registro">Registrarse</a>
 							</li>
                         }
 
@@ -46,33 +52,29 @@
                         @if (esAdminProg)
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Vehiculos/Index">Vehículos</a>
+                                <a class="nav-link text-white" asp-area="" asp-page="/Vehiculos/Index">Vehículos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Clientes/Index">Clientes</a>
+                                <a class="nav-link text-white" asp-area="" asp-page="/Clientes/Index">Clientes</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Mantenimientos/Index">Mantenimientos</a>
+                                <a class="nav-link text-white" asp-area="" asp-page="/Mantenimientos/Index">Mantenimientos</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Servicios/Index">Servicios</a>
-                            </li>
+                            @* <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-page="/Servicios/Index">Servicios</a>
+                            </li> *@
                         }
 
                         @* ------- Opciones para CLIENTE ------- *@
                         @if (esCliente)
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Vehiculos/MisVehiculos">Mis Vehículos</a>
+                                <a class="nav-link text-white" asp-area="" asp-page="/Vehiculos/MisVehiculos">Mis Vehículos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Mantenimientos/MisMantenimientos">Mis Mantenimientos</a>
+                                <a class="nav-link text-white" asp-area="" asp-page="/Mantenimientos/MisMantenimientos">Mis Mantenimientos</a>
                             </li>
                         }
-
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
                     </ul>
 
                     <ul class="navbar-nav">
@@ -81,7 +83,7 @@
                             <li class="nav-item">
                                 <form method="post" asp-page="/Index" asp-page-handler="Logout" class="d-inline">
                                     @Html.AntiForgeryToken()
-                                    <button type="submit" class="btn btn-link nav-link text-dark">Log Out</button>
+                                    <button type="submit" class="btn btn-link nav-link text-white">Log Out</button>
                                 </form>
                             </li>
                         }

@@ -56,7 +56,7 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Servicios
                 await _context.SaveChangesAsync();
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("/Servicios/Index", new { id = Servicio.IdMantenimiento });
         }
     }
 }

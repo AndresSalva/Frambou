@@ -41,25 +41,31 @@
             </div>
 
             <div class="mb-3">
-                <label asp-for="Vehiculo.CapacidadMotor" class="form-label"></label>
-                <input asp-for="Vehiculo.CapacidadMotor" class="form-control" type="number" step="any" />
+                <label asp-for="Vehiculo.CapacidadMotor"></label>
+                <select asp-for="Vehiculo.CapacidadMotor" asp-items="Model.CapacidadMotorOptions" class="form-control">
+                    <option value="">-- Selecciona capacidad --</option>
+                </select>
                 <span asp-validation-for="Vehiculo.CapacidadMotor" class="text-danger"></span>
             </div>
 
             <div class="mb-3">
-                <label asp-for="Vehiculo.Combustible" class="form-label"></label>
-                <input asp-for="Vehiculo.Combustible" class="form-control" />
+                <label asp-for="Vehiculo.Combustible"></label>
+                <select asp-for="Vehiculo.Combustible" asp-items="Model.CombustibleOptions" class="form-control">
+                    <option value="">-- Selecciona combustible --</option>
+                </select>
                 <span asp-validation-for="Vehiculo.Combustible" class="text-danger"></span>
             </div>
 
             <div class="mb-3">
-                <label asp-for="Vehiculo.Transmision" class="form-label"></label>
-                <input asp-for="Vehiculo.Transmision" class="form-control" />
+                <label asp-for="Vehiculo.Transmision"></label>
+                <select asp-for="Vehiculo.Transmision" asp-items="Model.TransmisionOptions" class="form-control">
+                    <option value="">-- Selecciona transmisión --</option>
+                </select>
                 <span asp-validation-for="Vehiculo.Transmision" class="text-danger"></span>
             </div>
 
             <div class="mb-3">
-                <label asp-for="Vehiculo.IdCliente" class="form-label"></label>
+                <label asp-for="Vehiculo.IdCliente" class="form-label">Cliente</label>
                 <select asp-for="Vehiculo.IdCliente"
                         asp-items="Model.ClientesOptions"
                         class="form-select">

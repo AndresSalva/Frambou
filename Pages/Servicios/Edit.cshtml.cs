@@ -66,7 +66,7 @@ namespace HospitalDeVehiculosUltimaVersion.Pages.Servicios
                 }
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("/Servicios/Index", new { id = Servicio.IdMantenimiento });
         }
 
         private bool ServicioExists(int id)
